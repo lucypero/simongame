@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "strict": true,
+        "target": "es2015"
+    },
+    "lib": [
+        "ES5",
+        "ES2015",
+        "DOM",
+        "ScriptHost"]
+}

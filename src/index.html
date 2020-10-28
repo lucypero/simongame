@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simon Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Michroma|Cabin+Condensed" rel="stylesheet"> 
+</head>
+<body>
+    <div class="bg-overlay"></div>
+    <h1>Simon Game</h1>
+    <svg id="simon-board" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 890 504"><defs><style>.cls-1{fill:#dd5757;}.cls-1,.cls-2,.cls-3,.cls-4{stroke:rgb(245, 245, 245);stroke-miterlimit:10;stroke-width:9px;}.cls-2{fill:#40c663;}.cls-3{fill:#e7e011;}.cls-4{fill:#446bcc;}.cls-5{font-size:136.18px;fill:#fff;font-family:Orbitron-Regular, Orbitron;}</style></defs><polygon id="btn-red" class="cls-1" points="880.5 136.12 880.5 253 650.84 253 652.5 251.5 548.75 158 445 158 445 17.5 734.75 17.5 880.5 136.12"/><polygon id="btn-green" class="cls-2" points="445 17.5 445 158 341.25 158 237.5 251.5 239.16 253 10.5 253 10.5 136.93 157.25 17.5 445 17.5"/><polygon id="btn-yellow" class="cls-3" points="445 345 445 487.5 157.25 487.5 10.5 368.07 10.5 253 239.16 253 341.25 345 445 345"/><polygon id="btn-blue" class="cls-4" points="880.5 253 880.5 368.88 734.75 487.5 445 487.5 445 345 548.75 345 650.84 253 880.5 253"/><text class="cls-5" id="counter" x="445" y="300">00</text></svg>
+    
+    <div class="buttons">
+        <div class="restart button"><div class="btn"></div><div class="label">Reset</div></div>
+        <div class="strict button off"><div class="btn"></div><div class="label">Strict mode</div></div>
+    </div>
+    <script src="./js/app.ts"></script>
+</body>
+</html>
